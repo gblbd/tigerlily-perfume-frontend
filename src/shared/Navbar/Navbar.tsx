@@ -138,12 +138,23 @@ const Navbar = () => {
           </div>
         </Link>
       </li>
+      <li className={` ${location.pathname === "/shop" ? "text-red-700" : ""}`}>
+        <div className="pr-5 py-2 w-[110px] block md:hidden">
+          <Link
+            to={"/"}
+            className="flex items-center gap-2 text-white border rounded-[30.5px] px-2  "
+          >
+            <TiShoppingCart className="text-3xl" />
+            <span className="text-lg font-bold font-open_sans">Cart</span>
+          </Link>
+        </div>
+      </li>
     </>
   );
 
   return (
     <section>
-      <div className={`fixed top-0 z-50 w-full transition duration-500  `}>
+      <div className={`fixed top-0 z-50 w-full transition duration-200  `}>
         <div
           className={`relative flex items-center justify-between max-w-screen-2xl mx-auto py-3 ${
             scrolled
@@ -168,7 +179,7 @@ const Navbar = () => {
           <ul className="items-center nav-list hidden space-x-8 lg:flex py-4  border-b-2">
             {menuItems}
           </ul>
-          <div className="pr-5 py-2">
+          <div className="pr-5 py-2 hidden md:block">
             <Link
               to={"/"}
               className="flex items-center gap-2 text-white border rounded-[30.5px] px-2  "
@@ -183,65 +194,35 @@ const Navbar = () => {
       <div className="fixed z-50 w-full transition py-3 duration-500 lg:hidden pr-5">
         <div className="flex justify-end relative">
           <button
-            className="w-10 h-6 absolute top-2 right-2 z-10 flex flex-col justify-between"
+            className="w-10 h-6 absolute top-4  right-2 z-50 flex flex-col items-center justify-between"
             onClick={toggleMenu}
           >
-            {scrolled ? (
-              <span
-                className={`h-1 w-4/5 bg-brand rounded-2xl ${
-                  isMenuOpen
-                    ? "rotate-45 translate-y-2.5 duration-300"
-                    : "translate-y-0 duration-300"
-                }`}
-              ></span>
-            ) : (
-              <span
-                className={`h-1 w-4/5 bg-white rounded-2xl ${
-                  isMenuOpen
-                    ? "rotate-45 translate-y-2.5 duration-300"
-                    : "translate-y-0 duration-300"
-                }`}
-              ></span>
-            )}
+            <span
+              className={`h-1 w-4/5 bg-white rounded-2xl ${
+                isMenuOpen
+                  ? "rotate-45 translate-y-2.5 duration-300"
+                  : "translate-y-0 duration-300"
+              }`}
+            ></span>
 
-            {/* span two */}
-            {scrolled ? (
-              <span
-                className={`h-1 w-4/5 bg-brand rounded-2xl ${
-                  isMenuOpen ? "opacity-0" : ""
-                }`}
-              ></span>
-            ) : (
-              <span
-                className={`h-1 w-4/5 bg-white rounded-2xl ${
-                  isMenuOpen ? "opacity-0" : ""
-                }`}
-              ></span>
-            )}
+            <span
+              className={`h-1 w-4/5 bg-white rounded-2xl ${
+                isMenuOpen ? "opacity-0" : ""
+              }`}
+            ></span>
 
-            {/* span one */}
-            {scrolled ? (
-              <span
-                className={`h-1 w-4/5 bg-brand rounded-2xl ${
-                  isMenuOpen
-                    ? "-rotate-45 -translate-y-2.5 duration-300"
-                    : "translate-y-0 duration-300"
-                }`}
-              ></span>
-            ) : (
-              <span
-                className={`h-1 w-4/5 bg-white rounded-2xl ${
-                  isMenuOpen
-                    ? "-rotate-45 -translate-y-2.5 duration-300"
-                    : "translate-y-0 duration-300 bg-brand"
-                }`}
-              ></span>
-            )}
+            <span
+              className={`h-1 w-4/5 bg-white rounded-2xl ${
+                isMenuOpen
+                  ? "-rotate-45 -translate-y-2.5 duration-300"
+                  : "translate-y-0 duration-300 bg-brand"
+              }`}
+            ></span>
           </button>
         </div>
         {isMenuOpen && (
           <div
-            className={`absolute top-5 left-0 w-full pb-10 bg-secondary mt-11  overflow-y-auto  mr-3 ${
+            className={`absolute top-8 left-0 w-full pb-10 bg-gradient-backdrop mt-11  overflow-y-auto  mr-3 ${
               isMenuOpen
                 ? "dropdown-menu-small"
                 : "-translate-x-full duration-300"

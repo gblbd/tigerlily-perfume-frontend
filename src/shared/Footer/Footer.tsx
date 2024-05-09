@@ -88,7 +88,7 @@ const Footer = () => {
             </div>
             <div>
               <h3 className="text-[24px] font-petrona font-extrabold text-white">
-                Privacy & Policy
+                PRIVACY
               </h3>
               <ul>
                 <li className="text-[18px] font-petrona font-extrabold text-white py-3">
