@@ -230,7 +230,7 @@ const Navbar = () => {
           >
             <div className=" shadow-sm text-brand hover:text-primary">
               <nav className="">
-                <ul className="space-y-4 px-4">{menuItems}</ul>
+                <ul className="space-y-4 px-4 pt-5">{menuItems}</ul>
               </nav>
             </div>
           </div>
