@@ -25,7 +25,7 @@ const SectionTwo = () => {
             <img
               src={perfume}
               alt="perfume"
-              className="w-11/12 md:w-full h-fit md:h-[556px] mx-auto"
+              className="w-11/12 md:w-full md:h-[556px] mx-auto"
             />
           </div>
           <div className="flex flex-col gap-10 w-11/12 md:w-full">
