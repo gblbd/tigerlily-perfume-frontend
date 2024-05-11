@@ -20,7 +20,7 @@ const Header = () => {
           <img src={rightarrow} alt="rightarrow" />
         </div>
 
-        <div className="absolute top-1/3 md:top-[40%] left-5 md:left-[15%] border-l-2">
+        <div className="absolute top-[45%] md:top-[40%] left-3 md:left-[15%] border-l-2">
           <p className="text-left text-white font-open_sans font-semibold text-base md:text-2xl pl-2">
             Discover the perfect
           </p>
@@ -32,7 +32,7 @@ const Header = () => {
           </p>
         </div>
 
-        <div className="absolute top-1/4 md:top-[35%] right-5 md:right-[15%]  text-white pt-10">
+        <div className="absolute top-[35%] right-5 md:right-[15%]  text-white pt-10">
           <p className="flex flex-col leading-10">
             <span className="text-2xl md:text-[48px] font-bold font-petrona">
               90+
@@ -51,7 +51,7 @@ const Header = () => {
           </p>
         </div>
 
-        <div className="flex items-center gap-2 absolute bottom-5 left-0 right-0 justify-center top-1/2 px-5 md:px-10">
+        <div className="flex items-center gap-2 absolute bottom-5 left-0 right-0 justify-center top-2/3 md:top-1/2 px-5 md:px-10">
           <img
             src={leftimage}
             alt="leftimage"
@@ -64,7 +64,7 @@ const Header = () => {
           />
         </div>
 
-        <div className="absolute left-0 right-0 top-1/2 flex justify-center items-center py-5 ">
+        <div className="absolute left-0 right-0 top-2/3 md:top-1/2 flex justify-center items-center py-5 ">
           <img
             src={middleimage}
             alt="middleimage"
