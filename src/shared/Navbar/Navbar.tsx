@@ -3,14 +3,11 @@ import { Link, useLocation } from "react-router-dom";
 import colorLogo from "../../assets/logo/logo.png";
 
 import { DarkModeContext } from "../../components/DarkModeContext/DarkModeContext";
-
-// import { useAppSelector } from "../../hooks/reduxHooks";
 import { TiShoppingCart } from "react-icons/ti";
 import "./Navbar.css";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  // const auth = useAppSelector((state) => state.auth);
   const location = useLocation();
   const { darkMode, isBangla } = useContext(DarkModeContext);
 
