@@ -11,12 +11,12 @@ const Hero = () => {
           alt=""
           className="w-full h-[400px] md:h-[823px] bg-cover"
         />
-        <div className="absolute top-10 md:top-16 left-7  md:left-16">
+        <div className="absolute top-8 md:top-16 left-7  md:left-16">
           <div className="w-11/12 md:w-[642px] h-auto md:h-[398px] bg-white flex flex-col justify-center px-10 py-5">
             <h2 className="text-xl md:text-[38px] font-Otomanopee_One leading-normal md:leading-[55.02px] font-normal w-auto md:w-[350px]">
               ALL-NATURAL MADE WITH LOVE
             </h2>
-            <p className="text-base md:text-[28px] font-bold font-petrona pt-5">
+            <p className="text-base md:text-[28px] font-bold font-petrona pt-5 leading-[31.58px]">
               Its long-lasting fragnance is exquisite and has a striking appeal
               Its long-lasting is exquisite and has a striking appeal Its long-
               lasting fragnance is exquisite and has a Its long-lasting is.
