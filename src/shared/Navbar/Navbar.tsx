@@ -173,7 +173,7 @@ const Navbar = () => {
               className="w-[176px] h-[58px] pl-5 py-2"
             />
           </Link>
-          <ul className="items-center nav-list hidden space-x-8 lg:flex py-4  border-b-2">
+          <ul className="items-center nav-list hidden space-x-8 pl-8 lg:flex py-4  border-b-2">
             {menuItems}
           </ul>
           <div className="pr-5 py-2 hidden lg:block">
