@@ -136,7 +136,7 @@ const Navbar = () => {
         </Link>
       </li>
       <li className={` ${location.pathname === "/shop" ? "text-red-700" : ""}`}>
-        <div className="pr-5 py-2 w-[110px] block md:hidden">
+        <div className="pr-5 py-2 w-[110px] block lg:hidden">
           <Link
             to={"/"}
             className="flex items-center gap-2 text-white border rounded-[30.5px] px-2  "
@@ -176,7 +176,7 @@ const Navbar = () => {
           <ul className="items-center nav-list hidden space-x-8 lg:flex py-4  border-b-2">
             {menuItems}
           </ul>
-          <div className="pr-5 py-2 hidden md:block">
+          <div className="pr-5 py-2 hidden lg:block">
             <Link
               to={"/"}
               className="flex items-center gap-2 text-white border rounded-[30.5px] px-2  "

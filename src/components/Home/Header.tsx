@@ -8,11 +8,11 @@ const Header = () => {
   return (
     <section>
       <div className="max-w-screen-2xl mx-auto h-[90vh] lg:h-[1047px] bg-gradient-backdrop py-10 relative">
-        <h1 className="text-2xl md:text-4xl lg:text-[100px] text-white text-center leading-none md:leading-3 lg:leading-[110px] font-bold font-petrona w-4/5 md:w-2/3 lg:w-[1013px] mx-auto pt-16 md:pt-28 ">
+        <h1 className="text-2xl md:text-4xl lg:text-[100px] text-white text-center leading-[50px] md:leading-[50px] lg:leading-[110px] font-bold font-petrona w-4/5 md:w-2/3 lg:w-[1013px] mx-auto pt-16">
           Discover Your Perfect Fragrance
         </h1>
 
-        <div className="flex justify-center items-center gap-3 py-5 md:pt-10">
+        <div className="flex justify-center items-center gap-3 py-5 md:pt-5 lg:pt-10">
           <img src={leftarrow} alt="leftarrow" />
           <button className="w-[120px] md:w-[142px] h-[40px] md:h-[54px] border rounded-[30.5px] font-open_sans text-base md:text-2xl font-bold text-white">
             Shop Now
@@ -51,7 +51,7 @@ const Header = () => {
           </p>
         </div>
 
-        <div className="flex items-center gap-2 absolute bottom-5 left-0 right-0 justify-center top-2/3 md:top-1/2 px-5 md:px-10">
+        <div className="flex items-center gap-2 absolute bottom-5 left-0 right-0 justify-center top-2/3 md:top-[60%] lg:top-1/2 px-5 md:px-10">
           <img
             src={leftimage}
             alt="leftimage"
@@ -64,7 +64,7 @@ const Header = () => {
           />
         </div>
 
-        <div className="absolute left-0 right-0 top-2/3 md:top-1/2 flex justify-center items-center py-5 ">
+        <div className="absolute left-0 right-0 top-2/3 md:top-[53%] lg:top-1/2 flex justify-center items-center py-5 ">
           <img
             src={middleimage}
             alt="middleimage"

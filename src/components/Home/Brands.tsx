@@ -7,12 +7,12 @@ const Brands = () => {
     <div>
       <div className="max-w-screen-2xl mx-auto bg-[#D9D9D9]">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5 justify-items-center items-center py-3">
-          <img src={icon1} alt="" className="w-1/2 md:w-full" />
-          <img src={icon2} alt="" className="w-1/2 md:w-full" />
-          <img src={icon3} alt="" className="w-1/2 md:w-full" />
-          <img src={icon1} alt="" className="w-1/2 md:w-full" />
-          <img src={icon2} alt="" className="w-1/2 md:w-full" />
-          <img src={icon3} alt="" className="w-1/2 md:w-full" />
+          <img src={icon1} alt="" className="w-1/2 md:w-2/3 lg:w-11/12" />
+          <img src={icon2} alt="" className="w-1/2 md:w-2/3 lg:w-11/12" />
+          <img src={icon3} alt="" className="w-1/2 md:w-2/3 lg:w-11/12" />
+          <img src={icon1} alt="" className="w-1/2 md:w-2/3 lg:w-11/12" />
+          <img src={icon2} alt="" className="w-1/2 md:w-2/3 lg:w-11/12" />
+          <img src={icon3} alt="" className="w-1/2 md:w-2/3 lg:w-11/12" />
         </div>
       </div>
     </div>

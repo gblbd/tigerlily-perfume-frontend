@@ -9,7 +9,7 @@ const SectionTwo = () => {
         <img
           src={flower}
           alt=""
-          className="absolute top-0 right-0 w-1/4 md:w-[379px]"
+          className="absolute top-0 right-0 w-1/4 md:w-[200px] lg:w-[379px]"
         />
         <div className="pt-10 ml-5 md:ml-16 w-11/12 md:w-[610px]">
           <h2 className="font-open_sans text-2xl md:text-4xl lg:text-[55px] font-bold leading-normal md:leading-[74.9px] ">
@@ -20,7 +20,7 @@ const SectionTwo = () => {
             the ingredients you’ll use.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 justify-items-center items-center pt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 justify-items-center items-center pt-10">
           <div>
             <img
               src={perfume}
@@ -28,14 +28,14 @@ const SectionTwo = () => {
               className="w-11/12 md:w-full md:h-[556px] mx-auto"
             />
           </div>
-          <div className="flex flex-col gap-10 w-11/12 md:w-full">
-            <div>
+          <div className="flex flex-col gap-10 w-11/12 md:w-full px-10 lg:px-0">
+            <div className="flex flex-col justify-center lg:justify-start gap-5">
               <img
                 src={icon}
                 alt=""
                 className="w-[50px] h-auto md:w-[94px] md:h-[94px]"
               />
-              <p className="flex items-center gap-5 ">
+              <p className="flex items-center  gap-5 ">
                 <span className="font-petrona text-2xl md:text-[48px] font-semibold">
                   250+
                 </span>{" "}
@@ -44,7 +44,7 @@ const SectionTwo = () => {
                 </span>
               </p>
             </div>
-            <div>
+            <div className="flex flex-col justify-center lg:justify-start gap-5">
               {" "}
               <img
                 src={icon}
@@ -60,7 +60,7 @@ const SectionTwo = () => {
                 </span>
               </p>
             </div>
-            <div>
+            <div className="flex flex-col justify-center lg:justify-start gap-5">
               {" "}
               <img
                 src={icon}

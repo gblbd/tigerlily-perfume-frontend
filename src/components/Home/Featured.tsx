@@ -55,7 +55,7 @@ const Featured = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-items-center pt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-items-center gap-5 lg:gap-0 px-0 md:px-5 lg:px-0 pb-10 lg:pb-0 pt-16">
           <div className="relative">
             <img src={icon1} alt="" className="w-4/5 md:w-full mx-auto" />
             <p className="text-2xl md:text-[38px] font-Otomanopee_One font-normal leading-[55.02px] absolute text-center left-0 right-0 bottom-8">
