@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer className="max-w-screen-2xl mx-auto ">
       <div className="bg-[#6B6B6B] pt-10 pb-1 px-5 ">
-        <div className=" grid grid-cols-1 md:grid-cols-3 justify-items-between items-center">
+        <div className=" grid grid-cols-1 lg:grid-cols-3 justify-items-between items-center">
           <div className="mb-10 w-11/12">
             <div className="flex justify-center items-center">
               <img
